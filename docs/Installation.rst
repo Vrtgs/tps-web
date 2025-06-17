@@ -59,4 +59,4 @@ For example you may use the following command:
 
 .. sourcecode:: bash
 
-  celery -A cps multi start 16 -c:1-6 2 -c:7-16 3 -l DEBUG -Q:1-6 invoke -Q:7-16 celery
+  celery -A tps multi start 16 -c:1-6 2 -c:7-16 3 -l DEBUG -Q:1-6 invoke -Q:7-16 celery
